@@ -1,0 +1,52 @@
+
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "photo1 photo1 photo1 photo2 photo3"
+    "photo4 photo4 photo5 photo6 photo3"
+    "photo4 photo4 photo7 photo8 photo9";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.container > .photo1{
+    grid-area: photo1;
+
+}
+.container > .photo2{
+    grid-area: photo2;
+
+}
+.container > .photo3{
+    grid-area: photo3;
+
+}
+.container > .photo4{
+    grid-area: photo4;
+
+}
+.container > .photo5{
+    grid-area: photo5;
+
+}
+.container > .photo6{
+    grid-area: photo6;
+
+}
+.container > .photo7{
+    grid-area: photo7;
+
+}
+.container > .photo8{
+    grid-area: photo8;
+
+}
+.container > .photo9{
+    grid-area: photo9;
+
+}
+
+img{
+    width:100%;
+    height:100%;
+}
